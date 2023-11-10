@@ -144,7 +144,7 @@ class EventBus:
 
     def sync_save_log(self, reason: str) -> None:
         started = time.time()
-        pickle_file = os.path.join(self.log_dir, f"events.pickle")
+        pickle_file = os.path.join(self.log_dir, "events.pickle")
         with open(pickle_file, "wb") as f:
             pickle.dump(self.event_log, f)
 
