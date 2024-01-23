@@ -74,7 +74,7 @@ PyYAML==6.0.1
 requests==2.31.0
 requests-oauthlib==1.2.0
 responses==0.10.6
-rsa==4.0
+rsa==4.7
 s3transfer==0.2.1
 setuptools==41.4.0
 six==1.14.0
