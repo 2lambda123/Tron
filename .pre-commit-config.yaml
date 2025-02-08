@@ -41,7 +41,7 @@ repos:
         language: script
         files: ^tests/.*\.py$
   - repo: http://github.com/psf/black
-    rev: 24.10.0
+    rev: 25.1.0
     hooks:
       - id: black
         language_version: python3.6
